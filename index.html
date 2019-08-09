@@ -64,17 +64,18 @@
         </div>
 
         <div class="section_example--two-split">
-                <img src="img/color_field/link_color_better.png">
-                <img src="img/color_field/link_color_better_sim.png">
-                    <p>The asterisk helps to differentiate required text fields from those that are not required</p>
-            </div>
+            <img src="img/color_field/link_color_better.png">
+            <img src="img/color_field/link_color_better_sim.png">
+            <p>The asterisk helps to differentiate required text fields from those that are not required</p>
+        </div>
 
 
         <p>Confirmation and cancellation buttons are also important as they are often only differentiated with red and
             green.</p>
         <div class="section_example--two-split">
-            <img src="img/color_button/color_button_bad.png">
-            <img src="img/color_button/color_button_bad_sim.png">
+            <img src="img/color_button/color_button_bad.png" alt="example of an inaccessible button">
+            <img src="img/color_button/color_button_bad_sim.png"
+                alt="example of an inaccessible button under color-blindness simulation">
             <p>Left: seeing these buttons with normal vision <br />
                 Right: seeing these buttons with Red-Blind (Protanopia)</p>
         </div>
@@ -83,16 +84,18 @@
             prominent than the other.</p>
 
         <div class="section_example--two-split">
-            <img src="img/color_button/color_button_better.png">
-            <img src="img/color_button/color_button_better_sim.png">
+            <img src="img/color_button/color_button_better.png" alt="example of an accessible button">
+            <img src="img/color_button/color_button_better_sim.png"
+                alt="example of an accessible button under color-blindness simulation">
         </div>
 
         <p>The designer could take it a step further and add an icon that really
             differentiate the two.</p>
 
         <div class="section_example--two-split">
-            <img src="img/color_button/color_button_best.png">
-            <img src="img/color_button/color_button_best_sim.png">
+            <img src="img/color_button/color_button_best.png" alt="example of an even more accessible button">
+            <img src="img/color_button/color_button_best_sim.png"
+                alt="good example of an even more accessible button under color-blindness simulation">
         </div>
         <p>Coloring also affects links. For example:</p>
 
@@ -115,14 +118,56 @@
             information” without the links context.</p>
         <p>A better solution would be writing a short description that provides context for the link.</p>
         <p>For example:</p>
-        <p>To read more about WCAG link description guidelines, <a
-                href="https://www.w3.org/TR/WCAG20/#navigation-mechanisms">click here</a></p>
-        <p>Read more about <a href="https://www.w3.org/TR/WCAG20/#navigation-mechanisms">WCAG link description
+        <p><strong style="font-family: 'Roboto', sans-serif">Bad: </strong>To read more about WCAG link description
+            guidelines, <a href="https://www.w3.org/TR/WCAG20/#navigation-mechanisms">click here</a></p>
+        <p><strong style="font-family: 'Roboto', sans-serif">Better: </strong>Read more about <a
+                href="https://www.w3.org/TR/WCAG20/#navigation-mechanisms">WCAG link description
                 guidelines</a>
     </div>
 
     <div class="section">
-        <h3></h3>
+        <h3>Image Labels</h3>
+        <p>This accessibility guideline is mostly invisible to the majority of the population but is important
+            nonetheless. This criterion is met when there is a descriptive label provided for each image in a webpage.
+            In the page’s code structure, there is a field on images for the “alt text” or alternative text. Screen
+            reader users use this alternative text to understand the message conveyed by the images.</p>
+        <p>Take a look at how an image is placed on a website</p>
+        <div class="section_example--one-split">
+            <img src="img/img_alt/img_alt.png" />
+            <p>The alt text is telling screen readers that this image is "an example of an accessible button under
+                color-blindness simulation"</p>
+        </div>
+        <p>Having these alternative texts help users with low or no vision to understand what is being presented and
+            keeps with the flow of the page. </p>
+    </div>
+
+    <div class="section">
+        <h2>Wrap up</h2>
+        <p>Web accessibility is an unseen issue to most of the population, but those that need it can really suffer from
+            its absence. Designing web pages with accessibility in mind will often also improve the experience for users
+            with normal vision as well. Providing a means for all users to access a site is not only good for business,
+            it provides a legal safeguard from potential lawsuits. While, there is not a one-size-fits-all solution for
+            being fully web-accessible, meeting the basic requirements is definitely a step in the right direction.</p>
+    </div>
+
+
+    <div class="section sources">
+        <h2>Sources:</h2>
+        <p><a href="https://www.workhorsemkt.com/web-accessibility-matters/">Bacon, Thomas. "What is web accessibility
+                and why does it matter?". Workhorse 17 Jan. 2017</a></p>
+        <p><a href="https://www.powermapper.com/blog/website-accessibility-disability-statistics/">Rogers, Mark.
+                "Website accessibility: disability statistics". PowerMapper 2 May 2019</a></p>
+        <p><a href="https://www.w3.org/WAI/business-case/">Rush, Sharron. "Designing UI with
+                Colorblind Users in Mind". Education and Outreach Working Group 9 Nov. 2018</a></p>
+        <p><a href="https://www.secretstache.com/blog/designing-for-color-blind-users/">Staats, Rich. "Designing UI with
+                Colorblind Users in Mind". SecretStache 3 Sept. 2018</a></p>
+        <p><a href="https://webaccess.berkeley.edu/resources/tips/web-accessibility">"Top 10 Tips for Making Your
+                Website Accessible". UC Berkeley 2019</a></p>
+        <p><a href="https://www.nngroup.com/articles/web-form-design/">Whitenton, Katheryn. "Website
+                Forms Usability: Top 10 Recommendations". Nielson Norman Group 1 May 2016</a></p>
+        <p>Special thanks to <a href="https://www.color-blindness.com/coblis-color-blindness-simulator/">Colblindor's
+                color
+                blindness simulator</a></p>
     </div>
 
     <div class="section">
@@ -147,6 +192,8 @@
             licensed
             by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC
                 3.0 BY</a></div>
+
+        <p>All other images or icons are self provided</p>
     </div>
 </body>
 
