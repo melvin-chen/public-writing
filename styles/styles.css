@@ -20,7 +20,27 @@ p {
     line-height: 1.5em;
 }
 
+a:hover {
+    background-color: #fff9ce;
+    font-weight: 600;
+}
 .section {
+}
+
+.header_updated {
+    top: 0;
+    right: 0;
+    width: 150px;
+    margin: auto;
+    padding: 5px 15px;
+    border-radius: 50px;
+    background-color: #b8ff9c
+}
+
+.header_updated p {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
 }
 
 .section_header h1,
@@ -71,4 +91,8 @@ p {
     font-family: 'Average', serif;
     font-size: 14px;
     margin: 5px 0;
+}
+
+.highlight {
+    background-color: #fffee0;
 }
